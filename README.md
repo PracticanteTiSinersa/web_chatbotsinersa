@@ -18,7 +18,7 @@ La página web proporciona lo siguiente:
 
 Puedes acceder a la página web de demostración en el siguiente enlace:
 
-[**Acceder a la página web**](https://practicantetisinersa.github.io/PracticanteTiSinersa/)
+[**Acceder a la página web**](https://practicantetisinersa.github.io/web_chatbotsinersa/)
 
 ## Cómo Usar
 
@@ -48,7 +48,7 @@ Este proyecto está bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para
 
 Si tienes alguna pregunta o comentario, puedes contactarme a través del siguiente correo electrónico:
 
-**Correo electrónico**: [mateo@example.com](mailto:mateo@example.com)
+**Correo electrónico**: [mateo@example.com](mailto:mateomunoz0408gmail.com)
 
 ---
 
