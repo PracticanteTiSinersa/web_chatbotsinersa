@@ -48,7 +48,7 @@ Este proyecto está bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para
 
 Si tienes alguna pregunta o comentario, puedes contactarme a través del siguiente correo electrónico:
 
-**Correo electrónico**: [mateo@example.com](mailto:mateomunoz0408gmail.com)
+**Correo electrónico**: [mateomunoz0408@gmail.com]
 
 ---
 
