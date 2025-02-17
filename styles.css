@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7; /* Fondo suave gris claro para todo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: #333; /* Texto oscuro para contraste */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 12px;
+    padding: 40px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+    margin-top: 40px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2575fc;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #333;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Estilo de las preguntas */
+.question {
+    background-color: #e1f5fe; /* Fondo claro para preguntas */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.question:hover {
+    background-color: #b3e5fc; /* Color de fondo cuando pasa el ratón */
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+.question p {
+    margin: 0;
+    color: #0077b6;
+    font-weight: 600;
+}
+
+/* Estilo de la explicación */
+.explanation {
+    display: none;
+    background-color: #f1f8ff; /* Fondo más suave para las explicaciones */
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.explanation p {
+    margin: 15px 0;
+}
+
+.explanation strong {
+    color: #2575fc;
+}
+
+/* Estilo del botón de enlace (para el formulario y la demo) */
+.button-link {
+    display: inline-block;
+    background-color: #2575fc;
+    color: white;
+    padding: 12px 25px; /* Reducimos el padding para hacerlos más pequeños */
+    font-size: 1.1em; /* Reducimos el tamaño de la fuente */
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: 300px; /* Aseguramos que el ancho no se sobreestime */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centrar el botón */
+}
+
+.button-link:hover {
+    background-color: #1d5ab2;
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+.button-link:active {
+    background-color: #1a4593;
+}
+
+/* Espaciado entre secciones */
+.section {
+    margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .question, .button-link {
+        font-size: 1.1em;
+    }
+}
