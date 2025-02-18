@@ -74,30 +74,3 @@ sections.forEach(section => {
     sectionObserver.observe(section);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-    const scrollTopBtn = document.querySelector(".scroll-top");
-
-    // Toggle menu en móviles
-    menuToggle.addEventListener("click", function () {
-        navLinks.classList.toggle("active");
-    });
-
-    // Mostrar u ocultar el botón de volver arriba
-    window.addEventListener("scroll", function () {
-        if (window.scrollY > 300) {
-            scrollTopBtn.classList.add("visible");
-        } else {
-            scrollTopBtn.classList.remove("visible");
-        }
-    });
-
-    // Funcionalidad para volver arriba
-    scrollTopBtn.addEventListener("click", function () {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-});
