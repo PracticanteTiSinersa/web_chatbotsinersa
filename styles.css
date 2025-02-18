@@ -184,5 +184,11 @@ li {
         width: 100%;
         max-width: none;
     }
-}
 
+    .scroll-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+    }
+}
