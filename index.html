@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatBot: ¿Cómo Funciona?</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>¿Cómo funciona el ChatBot_Sinersa?</h1>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1>ChatBot_Sinersa</h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#introduccion">Introducción</a>
+                <a href="#funcionamiento">Funcionamiento</a>
+                <a href="#preguntas">Preguntas</a>
+                <a href="#demo">Demo</a>
+            </div>
+        </div>
+    </nav>
 
+    <div class="container">
         <!-- Sección 1: Introducción a la Inteligencia Artificial -->
-        <div class="section">
+        <div class="section" id="introduccion">
             <h2>¿Qué es la Inteligencia Artificial (IA)?</h2>
             <p>La Inteligencia Artificial (IA) es una tecnología que permite a las máquinas realizar tareas que normalmente requieren de inteligencia humana, como entender lenguaje, tomar decisiones y aprender de la experiencia. En este proyecto, utilizamos IA para crear un ChatBot que interactúa con los empleados, ayudándolos a resolver dudas y optimizar tareas.</p>
         </div>
 
         <!-- Sección 2: Cómo Funciona el ChatBot -->
-        <div class="section">
+        <div class="section" id="funcionamiento">
             <h2>¿Cómo funciona el ChatBot?</h2>
             <p>El ChatBot funciona de la siguiente manera:</p>
             <ul>
@@ -30,7 +45,7 @@
         </div>
 
         <!-- Sección 3: Ejemplos de Preguntas y Respuestas -->
-        <div class="section">
+        <div class="section" id="preguntas">
             <h2>¿Qué tipo de preguntas puede responder el ChatBot?</h2>
             <p>El ChatBot está diseñado para responder preguntas relacionadas exclusivamente con los documentos que subas. Algunos ejemplos incluyen:</p>
             <ul>
@@ -66,12 +81,12 @@
         </div>
 
         <!-- Sección 6: Demo de charla con el ChatBot -->
-        <div class="section" id="demo-charla">
+        <div class="section" id="demo">
             <h2>Demo de Charla con el ChatBot</h2>
             <p>Para que puedas ver lo que el ChatBot es capaz de hacer, te dejamos un enlace a una charla de ejemplo con el ChatBot de demostración. Esta demo muestra cómo el ChatBot interactúa con los usuarios, responde preguntas y procesa información de los documentos cargados.</p>
             <p><strong>Nota:</strong> Este es solo un ejemplo del ChatBot en su fase de demostración. El ChatBot de SINERSA funcionará de manera similar, pero será implementado en un entorno local con acceso exclusivo a los documentos que subas.</p>
             <a href="https://partyrock.aws/u/practicanteai/5_3_Xq3tr/Sinersa-ChatBot/snapshot/sjbq3HWTF" target="_blank" class="button-link">Ver la Demo del ChatBot</a>
-            </div>
+        </div>
 
         <!-- Sección 7: Demo Interactiva del ChatBot -->
         <div class="section" id="formulario">
@@ -81,6 +96,13 @@
             <p><strong>Nota:</strong> Esta es solo una versión de prueba. El ChatBot solo podrá interactuar con los documentos que subas durante la prueba.</p>
         </div>
     </div>
+
+    <!-- Botón volver arriba -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>
+
