@@ -10,30 +10,30 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main Navigation">
         <div class="nav-container">
             <h1>ChatBot_Sinersa</h1>
-            <div class="menu-toggle">
+            <button class="menu-toggle" aria-label="Toggle Menu">
                 <i class="fas fa-bars"></i>
-            </div>
+            </button>
             <div class="nav-links">
-                <a href="#introduccion">Introducción</a>
-                <a href="#funcionamiento">Funcionamiento</a>
-                <a href="#preguntas">Preguntas</a>
-                <a href="#demo">Demo</a>
+                <a href="#introduccion" title="Ir a Introducción">Introducción</a>
+                <a href="#funcionamiento" title="Ir a Funcionamiento">Funcionamiento</a>
+                <a href="#preguntas" title="Ir a Preguntas">Preguntas</a>
+                <a href="#demo" title="Ir a Demo">Demo</a>
             </div>
         </div>
     </nav>
 
-    <div class="container">
+    <main class="container">
         <!-- Sección 1: Introducción a la Inteligencia Artificial -->
-        <div class="section" id="introduccion">
+        <section class="section" id="introduccion">
             <h2>¿Qué es la Inteligencia Artificial (IA)?</h2>
             <p>La Inteligencia Artificial (IA) es una tecnología que permite a las máquinas realizar tareas que normalmente requieren de inteligencia humana, como entender lenguaje, tomar decisiones y aprender de la experiencia. En este proyecto, utilizamos IA para crear un ChatBot que interactúa con los empleados, ayudándolos a resolver dudas y optimizar tareas.</p>
-        </div>
+        </section>
 
         <!-- Sección 2: Cómo Funciona el ChatBot -->
-        <div class="section" id="funcionamiento">
+        <section class="section" id="funcionamiento">
             <h2>¿Cómo funciona el ChatBot?</h2>
             <p>El ChatBot funciona de la siguiente manera:</p>
             <ul>
@@ -42,10 +42,10 @@
                 <li><strong>El usuario puede hacer preguntas:</strong> El ChatBot responde solo con la información que contiene el documento subido por el usuario.</li>
             </ul>
             <p><strong>Recuerda:</strong> Cada usuario solo podrá interactuar con los documentos que haya subido durante su sesión.</p>
-        </div>
+        </section>
 
         <!-- Sección 3: Ejemplos de Preguntas y Respuestas -->
-        <div class="section" id="preguntas">
+        <section class="section" id="preguntas">
             <h2>¿Qué tipo de preguntas puede responder el ChatBot?</h2>
             <p>El ChatBot está diseñado para responder preguntas relacionadas exclusivamente con los documentos que subas. Algunos ejemplos incluyen:</p>
             <ul>
@@ -59,10 +59,10 @@
                 <li>Preguntas generales sobre la empresa o datos no relacionados con los archivos cargados.</li>
                 <li>Interpretación emocional o decisiones complejas basadas en juicios humanos.</li>
             </ul>
-        </div>
+        </section>
 
         <!-- Sección 4: Restricciones y Limitaciones del ChatBot -->
-        <div class="section">
+        <section class="section">
             <h2>Restricciones del ChatBot</h2>
             <p>El ChatBot tiene ciertas limitaciones:</p>
             <ul>
@@ -71,38 +71,37 @@
                 <li>No puede realizar tareas fuera de los documentos cargados, como predicciones o juicios.</li>
             </ul>
             <p>Este enfoque asegura la privacidad de los datos de cada usuario.</p>
-        </div>
+        </section>
 
         <!-- Sección 5: Formulario de Retroalimentación -->
-        <div class="section">
+        <section class="section">
             <h2>¿Qué te gustaría que tuviera el ChatBot?</h2>
             <p>Para mejorar el ChatBot y adaptarlo mejor a las necesidades de todos, te invitamos a que completes el siguiente formulario. Cuéntanos qué funcionalidades te gustaría que tuviera el ChatBot y cómo podría hacer tu trabajo más eficiente.</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7LXTHHykiLq3Ke4xoZu0TDnlFglSxcR_tvtlktqImlrRFmQ/viewform?usp=dialog" target="_blank" class="button-link">Completar el Formulario</a>
-        </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7LXTHHykiLq3Ke4xoZu0TDnlFglSxcR_tvtlktqImlrRFmQ/viewform?usp=dialog" target="_blank" class="button-link" title="Completar el Formulario">Completar el Formulario</a>
+        </section>
 
         <!-- Sección 6: Demo de charla con el ChatBot -->
-        <div class="section" id="demo">
+        <section class="section" id="demo">
             <h2>Demo de Charla con el ChatBot</h2>
             <p>Para que puedas ver lo que el ChatBot es capaz de hacer, te dejamos un enlace a una charla de ejemplo con el ChatBot de demostración. Esta demo muestra cómo el ChatBot interactúa con los usuarios, responde preguntas y procesa información de los documentos cargados.</p>
             <p><strong>Nota:</strong> Este es solo un ejemplo del ChatBot en su fase de demostración. El ChatBot de SINERSA funcionará de manera similar, pero será implementado en un entorno local con acceso exclusivo a los documentos que subas.</p>
-            <a href="https://liberal-blatantly-cricket.ngrok-free.app/s/d6da92e0-be0b-4695-9762-9043655e2182" target="_blank" class="button-link">Ver la Demo del ChatBot</a>
-        </div>
+            <a href="https://liberal-blatantly-cricket.ngrok-free.app/s/d6da92e0-be0b-4695-9762-9043655e2182" target="_blank" class="button-link" title="Ver la Demo del ChatBot">Ver la Demo del ChatBot</a>
+        </section>
 
         <!-- Sección 7: Demo Interactiva del ChatBot -->
-        <div class="section" id="formulario">
+        <section class="section" id="formulario">
             <h2>¡Prueba el ChatBot en acción!</h2>
             <p>Haz clic en el siguiente enlace para probar una versión de prueba del ChatBot:</p>
-            <a href="https://liberal-blatantly-cricket.ngrok-free.app" target="_blank" class="button-link">Acceder a la Demo del ChatBot</a>
+            <a href="https://liberal-blatantly-cricket.ngrok-free.app" target="_blank" class="button-link" title="Acceder a la Demo del ChatBot">Acceder a la Demo del ChatBot</a>
             <p><strong>Nota:</strong> Esta es solo una versión de prueba. El ChatBot solo podrá interactuar con los documentos que subas durante la prueba.</p>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <!-- Botón volver arriba -->
-    <div class="scroll-top">
+    <button class="scroll-top" aria-label="Volver arriba">
         <i class="fas fa-arrow-up"></i>
-    </div>
+    </button>
 
     <script src="scripts.js"></script>
 </body>
 </html>
-
