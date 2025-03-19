@@ -60,7 +60,8 @@ Este proyecto está bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para
 
 Si tienes alguna pregunta o comentario, puedes contactarme a través del siguiente correo electrónico:
 
-**Correo electrónico**: [practicante.ti.sinersa@gmail.com]
+**Correo electrónico del trabajo**: [practicante.ti.sinersa@gmail.com]
+**Correo electrónico personal**: [mateomunoz0408@gmail.com]
 
 ---
 
